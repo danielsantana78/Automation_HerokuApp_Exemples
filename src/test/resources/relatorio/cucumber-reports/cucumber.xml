@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.411718">
+    <testcase classname="Interação com o elemento Add/Remove Elements" name="Clicar no link Add/Remove Elements adicionar três elementos e deletar" time="10.411718">
+        <system-out><![CDATA[Given que eu acesso o site de exercícios de automação.......................passed
+And que eu opto por clicar no link Add/Remove Elements......................passed
+When opto por clicar no botão Add Element três vezes........................passed
+And quando o sistema apresenta três vezes o botão Delete....................passed
+Then opto por remover os remover esses três botões..........................passed
+And volto para a tela inicial...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

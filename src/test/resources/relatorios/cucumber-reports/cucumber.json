@@ -1,0 +1,100 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Clicar no link Add/Remove Elements adicionar três elementos e deletar",
+        "description": "",
+        "id": "interação-com-o-elemento-add/remove-elements;clicar-no-link-add/remove-elements-adicionar-três-elementos-e-deletar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6114478200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que eu acesso o site de exercícios de automação",
+            "match": {
+              "location": "Steps_Exemplo_Add_Remove_Elements.queEuAcessoOSiteDeExercíciosDeAutomação()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 308365300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu opto por clicar no link Add/Remove Elements",
+            "match": {
+              "location": "Steps_Exemplo_Add_Remove_Elements.queEuOptoPorClicarNoLinkAddRemoveElements()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2057875300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "opto por clicar no botão Add Element três vezes",
+            "match": {
+              "location": "Steps_Exemplo_Add_Remove_Elements.optoPorClicarNoBotãoAddElementTrêsVezes()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11076900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "quando o sistema apresenta três vezes o botão Delete",
+            "match": {
+              "location": "Steps_Exemplo_Add_Remove_Elements.quandoOSistemaApresentaTrêsVezesOBotãoDelete()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6234318700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "opto por remover os remover esses três botões",
+            "match": {
+              "location": "Steps_Exemplo_Add_Remove_Elements.optoPorRemoverOsRemoverEssesTrêsBotões()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47626600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "volto para a tela inicial",
+            "match": {
+              "location": "Steps_Exemplo_Add_Remove_Elements.voltoParaATelaInicial()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@AddRemoveElements"
+          }
+        ]
+      }
+    ],
+    "name": "Interação com o elemento Add/Remove Elements",
+    "description": "",
+    "id": "interação-com-o-elemento-add/remove-elements",
+    "keyword": "Feature",
+    "uri": "Exemplo_Add_Remove_Elements.feature"
+  }
+]
